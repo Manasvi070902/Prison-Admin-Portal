@@ -45,7 +45,7 @@ if(isset($_SESSION['userUidAdmin'])){
             >
             <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="f_name"
+            name="f_name" placeholder="First Name"
               class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
             </div>
@@ -56,7 +56,7 @@ if(isset($_SESSION['userUidAdmin'])){
             >
             <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="l_name"
+            name="l_name" placeholder="Last Name"
               class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
             </div>
@@ -79,7 +79,7 @@ if(isset($_SESSION['userUidAdmin'])){
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="title"
+            name="title" placeholder="Inspector"
               class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
@@ -90,7 +90,7 @@ if(isset($_SESSION['userUidAdmin'])){
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="mob_number"
+            name="mob_number" placeholder="9876543210"
               class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
@@ -102,7 +102,7 @@ if(isset($_SESSION['userUidAdmin'])){
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="username"
+            name="username" placeholder="UserName"
               class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
@@ -113,7 +113,7 @@ if(isset($_SESSION['userUidAdmin'])){
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="password" type="password"
+            name="password" type="password" placeholder="Password"
               class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
@@ -124,7 +124,7 @@ if(isset($_SESSION['userUidAdmin'])){
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="cfmpassword" type="password"
+            name="cfmpassword" type="password" placeholder="Confirm Password"
               class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
