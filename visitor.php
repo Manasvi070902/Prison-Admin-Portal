@@ -12,7 +12,7 @@ if(isset($_SESSION['userUidOfficer'])){
       </h2>';
     }elseif($_GET['error']=="reserror"){
       echo'<h2 class="mt-6 text-center text-3xl leading-9 font-extrabold text-red-600">
-      This visit cannot be scheduled!!       
+      IPC not updated!!       
       </h2>';
     }
 }
@@ -29,7 +29,7 @@ echo'
           Visitor Registration
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Enroll yourself as a Visitor!
+            Add a Visitor!
           </p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">

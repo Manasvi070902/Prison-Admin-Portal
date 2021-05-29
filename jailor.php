@@ -1,6 +1,6 @@
 <?php 
 require "./header.php";
-if(isset($_SESSION['userUidAdmin'])){
+if(isset($_SESSION['userUidOfficer'])){
   if(isset($_GET['error'])){
     if($_GET['error']=="emptyfields"){
       echo'<h2 class="mt-6 text-center text-3xl leading-9 font-extrabold text-red-600">
@@ -41,7 +41,7 @@ if(isset($_SESSION['userUidAdmin'])){
             >
             <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="f_name" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+            name="f_name" placeholder="First Name" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
             </div>
           </div>
@@ -51,37 +51,28 @@ if(isset($_SESSION['userUidAdmin'])){
             >
             <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="l_name" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+            name="l_name" placeholder="Last Name"  class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
             </div>
             </div>
         <div class="p-2 w-1/2">
           <label class="block text-sm leading-5 font-medium text-gray-700"
-            >Mobile Number 1</label
+            >Mobile Number</label
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="mob_number" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+            name="mob_number" placeholder="9876543210" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
         </div>
-        <div class="p-2 w-1/2">
-          <label class="block text-sm leading-5 font-medium text-gray-700"
-            >Mobile Number 2 </label
-          >
-          <div class="mt-1 relative rounded-md shadow-sm">
-            <input
-            name="mob_number1" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
-            />
-          </div>
-        </div>
+   
         <div class="p-2 w-1/2">
           <label class="block text-sm leading-5 font-medium text-gray-700"
             >Username</label
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
-            name="username" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+            name="username" placeholder="UserName" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
         </div>
@@ -91,7 +82,7 @@ if(isset($_SESSION['userUidAdmin'])){
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input type="password"
-            name="password" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+            name="password" placeholder="Password" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
         </div>
@@ -101,7 +92,7 @@ if(isset($_SESSION['userUidAdmin'])){
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input type ="password"
-              name= "cfmpassword" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+              name= "cfmpassword" placeholder="Confirm Password" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
             />
           </div>
         </div>
@@ -111,7 +102,7 @@ if(isset($_SESSION['userUidAdmin'])){
         >
         <div class="mt-1 relative rounded-md shadow-sm">
           <input type ="text"
-            name= "section_id" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+            name= "section_id" placeholder="Section Id" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
           />
         </div>
       </div>
@@ -121,7 +112,7 @@ if(isset($_SESSION['userUidAdmin'])){
       >
       <div class="mt-1 relative rounded-md shadow-sm">
         <input type ="text"
-          name= "section_name" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
+          name= "section_name" placeholder="Section Name" class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
         />
       </div>
     </div>

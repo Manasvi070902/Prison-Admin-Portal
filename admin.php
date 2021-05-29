@@ -28,8 +28,8 @@
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
             </div>
             <div class="flex-grow pl-6">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Add a visitor</h2>
-              <p class="leading-relaxed text-base">Add a visitor .</p>
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Add a Visitor</h2>
+              <p class="leading-relaxed text-base">Add Visitor Details .</p>
               <a class="mt-3 text-indigo-500 inline-flex items-center"href="./visitor.php">Add Visitor
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -43,7 +43,7 @@
             </div>
             <div class="flex-grow pl-6">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Add an Officer</h2>
-              <p class="leading-relaxed text-base">Add an Officer .</p>
+              <p class="leading-relaxed text-base">Add Officer Details.</p>
               <a class="mt-3 text-indigo-500 inline-flex items-center"href="./officer.php">Add Officer
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -57,7 +57,7 @@
           </div>
           <div class="flex-grow pl-6">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Add a Jailor</h2>
-            <p class="leading-relaxed text-base">Add a Jailor .</p>
+            <p class="leading-relaxed text-base">Add Jailor Details .</p>
             <a class="mt-3 text-indigo-500 inline-flex items-center"href="./jailor.php">Add Jailor
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
