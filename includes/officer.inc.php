@@ -7,12 +7,11 @@
       $dob=$_POST['dob'];
       $title=$_POST['title'];
       $mob_number=$_POST['mob_number'];
-      $mob_number1=$_POST['mob_number1'];
       $username=$_POST['username'];
       $password=$_POST['password'];
       $cfmpassword=$_POST['cfmpassword'];
 
-      if(empty($f_name)||empty($l_name)||empty($dob)||empty($title)||empty($mob_number)||empty($username)||empty($password)||empty($cfmpassword)||empty($mob_number1)){   
+      if(empty($f_name)||empty($l_name)||empty($dob)||empty($title)||empty($mob_number)||empty($username)||empty($password)||empty($cfmpassword)){   
         header("Location: ../officer.php?error=emptyfields");
         exit();
     } else if(!preg_match("/^[a-zA-Z0-9]*$/", $username)){
@@ -47,7 +46,7 @@
                               //hashing the password:
                               mysqli_stmt_bind_param($stmt1,"ssssss",$username,$password,$f_name,$l_name,$title,$dob);
                               mysqli_stmt_execute($stmt1);
-                             // header("Location: ../fir.php?insert=success");
+                             
                               //exit();
           
                           }
@@ -63,11 +62,7 @@
                             exit();
                           }
                          
-                          $sql3="INSERT INTO Officer_phone(Officer_phone,Officer_id ) VALUES ('$mob_number1','$officer_id[0]') ";
-                         if(! mysqli_query($conn,$sql3)){
-                          header("Location: ../successofficer.php?insert=sqlerror");
-                          exit();
-                         }else{
+                          else{
                           header("Location: ../successofficer.php?insert=success");
                           exit();
                          }

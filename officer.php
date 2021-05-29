@@ -86,7 +86,7 @@ if(isset($_SESSION['userUidOfficer'])){
         </div>
         <div class="p-2 w-1/2">
           <label class="block text-sm leading-5 font-medium text-gray-700"
-            >Mobile Number 1</label
+            >Mobile Number</label
           >
           <div class="mt-1 relative rounded-md shadow-sm">
             <input
@@ -95,17 +95,7 @@ if(isset($_SESSION['userUidOfficer'])){
             />
           </div>
         </div>
-        <div class="p-2 w-1/2">
-          <label class="block text-sm leading-5 font-medium text-gray-700"
-            >Mobile Number 2</label
-          >
-          <div class="mt-1 relative rounded-md shadow-sm">
-            <input
-              name="mob_number1"
-              class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base form-input block w-full px-3 h-10"
-            />
-          </div>
-        </div>
+       
         <div class="p-2 w-1/2">
           <label class="block text-sm leading-5 font-medium text-gray-700"
             >Username</label

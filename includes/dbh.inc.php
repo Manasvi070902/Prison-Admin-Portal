@@ -3,7 +3,7 @@
 $servername="localhost";
 $dBUsername="root";
 $dBPassword="password";
-$dBName="prison_system_db";
+$dBName="prisondb";
 
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
 
