@@ -46,7 +46,7 @@ session_start();
                         <ul class="flex space-x-8 text-sm font-semibold">
                         <?php
                         if(isset($_SESSION['userUidAdmin'])){
-                                      echo'<li><a class="my-4 inline-block active font-bold" href="includes/logout.inc.php?logout=officer" class="hover:text-indigo-500">Logout</a></li>
+                                      echo'<li><a class="my-4 inline-block active font-bold" href="includes/logout.inc.php?logout=admin" class="hover:text-indigo-500">Logout</a></li>
                                       <li><a class="my-4 inline-block active font-bold" href="./aboutus.php" class="hover:text-indigo-500">Aboutus</a></li>
                                       <li><a class="my-4 inline-block active font-bold" href="" class="hover:text-indigo-500">Management Portal</a></li>
                                     ';
