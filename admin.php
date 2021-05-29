@@ -1,7 +1,15 @@
 <?php
-    require "./header.php";
-    
-?>
+    require 'header.php';
+    if(isset($_SESSION['userUidAdmin'])){
+
+    include_once 'includes/dbh.inc.php';
+    //require'header.php';
+    }else{
+        header("Location: ./failure.php");
+        exit();
+    }
+   
+    ?>
 <section class="text-gray-700 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="font-medium title-font text-center text-gray-900 mb-20">

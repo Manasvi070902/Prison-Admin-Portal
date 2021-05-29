@@ -44,9 +44,18 @@ session_start();
                     <!-- Navbar -->
                     <navbar class="navbar hidden md:block">
                         <ul class="flex space-x-8 text-sm font-semibold">
-                           
+                        <?php
+                        if(isset($_SESSION['userUidAdmin'])){
+                                      echo'<li><a class="my-4 inline-block active font-bold" href="includes/logout.inc.php?logout=officer" class="hover:text-indigo-500">Logout</a></li>
+                                      <li><a class="my-4 inline-block active font-bold" href="./aboutus.php" class="hover:text-indigo-500">Aboutus</a></li>
+                                      <li><a class="my-4 inline-block active font-bold" href="" class="hover:text-indigo-500">Management Portal</a></li>
+                                    ';
+                                      
+                                }else{echo`
                         <li><a href="./aboutus.php" class="hover:text-indigo-500">About Us</a></li>
-                        <li><a href="" class="hover:text-indigo-500">Management Portal</a></li>
+                        <li><a href="" class="hover:text-indigo-500">Management Portal</a></li>`;
+                                }
+                                ?>
                               
                         </ul>
                     </navbar>

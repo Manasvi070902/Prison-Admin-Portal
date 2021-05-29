@@ -1,6 +1,6 @@
 <?php 
 require "./header.php";
-if(isset($_SESSION['userUidOfficer'])){
+if(isset($_SESSION['userUidAdmin'])){
   if(isset($_GET['error'])){
     if($_GET['error']=="emptyfields"){
       echo'<h2 class="mt-6 text-center text-3xl leading-9 font-extrabold text-red-600">
