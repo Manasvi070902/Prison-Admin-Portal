@@ -2,7 +2,7 @@
 
 $servername="localhost";
 $dBUsername="root";
-$dBPassword="password";
+$dBPassword="";
 $dBName="prisondb";
 
 $conn=mysqli_connect($servername,$dBUsername,$dBPassword,$dBName);
